@@ -147,7 +147,7 @@ header nav ul li ul li a {
 /* ============hero-banner============ */
 
 #hero-banner {
-  background: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80") no-repeat fixed center center/cover;
+  background: url("img/Optimized-plant.jpeg") no-repeat fixed center center/cover;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -164,14 +164,14 @@ header nav ul li ul li a {
   background-color: rgba(245, 245, 245, 0.5)
 }
 
-#hero-banner .hero-content {
+main #hero-banner .hero-content {
   border-radius: 0.2rem;
   height: 10rem;
   margin-top: 35vh;
   z-index: 1;
 }
 
-#hero-banner .hero-content h1 {
+main #hero-banner .hero-content h1 {
   color: var(--dark-color);
   font-size: 4rem;
   padding: 2rem;
@@ -272,7 +272,7 @@ h1 #h1-dif-color {
 /* ===========SKILLS=========== */
 
 #skills {
-  background: url("https://images.unsplash.com/photo-1515705576963-95cad62945b6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80")
+  background: url("img/stars.jpeg")
     no-repeat center center/cover fixed;
   scroll-margin-top: 2em;
   position: relative;
@@ -469,7 +469,7 @@ h1 #h1-dif-color {
 
 /* ============FOOTER=========== */
 
-.contact-me {
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -478,7 +478,7 @@ h1 #h1-dif-color {
   height: 45rem;
 }
 
-.contact-me::after {
+footer::after {
   position: absolute;
   top:0;
   left:0;
@@ -490,42 +490,42 @@ h1 #h1-dif-color {
   
 }
 
-.contact-me form {
+footer form {
   position: relative;
   z-index: 1;
   color: var(--light-color);
   margin-bottom: 2rem;
 }
 
-.contact-me form h2 {
+footer form h2 {
   font-size: 2rem;
   text-align: center;
   z-index: 1;
 }
 
-.contact-me form .form-group, .contact-me form textarea {
+footer form .form-group, footer form textarea {
   margin-bottom: 1rem;
 }
 
-.contact-me form label {
+footer form label {
   display: inline-block;
   width: 8rem;
 }
 
-.contact-me form input {
+footer form input {
   padding: 0.3rem;
   width: 62%;
 }
 
-.contact-me form input, .contact-me form textarea {
+footer form input, footer form textarea {
   font-family: 'Exo', sans-serif;
 }
 
-.contact-me form textarea {
+footer form textarea {
   width: 94%;
 }
 
-.contact-me button {
+footer button {
   font-family: 'Exo', sans-serif;
   width: 94%;
   height: 61px;
@@ -535,7 +535,7 @@ h1 #h1-dif-color {
   border: none;
 }
 
-.contact-me p {
+footer p {
   text-align: center;
   padding: 2rem;
 }
@@ -677,11 +677,11 @@ h1 #h1-dif-color {
     padding: 0;
   }
 
-.contact-me textarea {
+footer textarea {
   width: 96%;
 }
 
-.contact-me button {
+footer button {
   font-family: 'Exo', sans-serif;
   width: 96%;
 }
@@ -759,15 +759,15 @@ h1 #h1-dif-color {
     width: 100%;
   }
 
-  .contact-me .form-group label {
+  form .form-group label {
     display: block;
   }
 
-  .contact-me .form-group input, .contact-me .form-group textarea {
+  form .form-group input, form .form-group textarea {
     width: 100%;
   }
 
-  .contact-me button {
+  footer button {
     font-family: 'Exo', sans-serif;
     width: 100%;
 
