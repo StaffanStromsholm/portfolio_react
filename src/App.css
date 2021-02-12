@@ -34,7 +34,7 @@ body {
 
 h1, h2, h3 {
   font-family: 'Dosis', sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   margin: 0;
   padding: 0;
 }
@@ -50,7 +50,7 @@ header{
   justify-content: space-between;
   align-items: center;
   height: 7rem;
-  background-color: var(--primary-color-opacity);
+  background-color: var(--light-color);
   position: fixed;
   top: 0;
   left: 0;
@@ -58,12 +58,16 @@ header{
   z-index: 2;
 }
 
-header .logo a {
-  padding: 2rem;
+.logo {
+  font-family: 'Inconsolata', monospace;
+  font-size: 3rem;
+  padding-left: 2rem;
 }
 
-header .logo a img {
-  height: 3rem;
+.logo a {
+  text-decoration: none;
+  color: var(--secondary-color);
+
 }
 
 header nav .hamburger {
@@ -154,15 +158,14 @@ header nav ul li ul li a {
   text-align: center;
 }
 
-/* #hero-banner::after {
+#hero-banner::after {
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   position: absolute;
   content: "";
-  background-color: rgba(245, 245, 245, 0.5)
-} */
+}
 
 #hero-banner .hero-content {
   border-radius: 0.2rem;
@@ -171,12 +174,53 @@ header nav ul li ul li a {
   z-index: 1;
 }
 
+/* ========= */
+
+#hero-banner .hero-content h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+/* Google Fonts */
+/* @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro); */
+
+/* Animation */
+#hero-banner .hero-content h1{
+  animation: typewriter 4s steps(44) 1s 1 infinite normal,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+/* ========= */
+
 #hero-banner .hero-content h1 {
   color: var(--dark-color);
-  font-size: 4rem;
-  padding: 2rem;
+  font-size: 2rem;
   font-weight: 200;
-  /* background-color: var(--light-color); */
 }
 
 h2 {
@@ -308,6 +352,12 @@ h1 #h1-dif-color {
 .progress-group label i {
   font-size: 3rem;
   margin-bottom: 1rem;
+}
+
+.progress-group .typescript-logo, .progress-group .mongodb-logo {
+  width: 48px;
+  color: var(--dark-color);
+  max-height: 48px;
 }
 
 .progress-group progress[value] {

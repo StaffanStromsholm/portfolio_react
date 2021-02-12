@@ -1,4 +1,7 @@
 import React from 'react';
+import TSLogo from './Typescript_logo_2020.svg';
+import mongoLogo from './mongodb (1).svg'
+import SQLLogo from './sql-svgrepo-com.svg';
 
 const Skills = () => {
     return (
@@ -30,6 +33,26 @@ const Skills = () => {
                         <label for="file"><i class="fab fa-spin fa-react"></i></label>
                         <p>React</p>
                         <progress id="file" value="5" max="100"></progress>
+                    </div>
+                    <div class="progress-group">
+                        <label for="file"><i class="fas fa-mug-hot"></i></label>
+                        <p>Redux</p>
+                        <progress id="file" value="5" max="100"></progress>
+                    </div>
+                    <div class="progress-group">
+                        <label for="file"><i><img src={TSLogo} class="typescript-logo"></img></i></label>
+                        <p>Typescript</p>
+                        <progress id="file" value="5" max="100"></progress>
+                    </div>
+                    <div class="progress-group">
+                        <label for="file"><i><img src={mongoLogo} class="mongodb-logo"></img></i></label>
+                        <p>MongoDB</p>
+                        <progress id="file" value="20" max="100"></progress>
+                    </div>
+                    <div class="progress-group">
+                        <label for="file"><i><img src={SQLLogo} class="mongodb-logo"></img></i></label>
+                        <p>SQL</p>
+                        <progress id="file" value="20" max="100"></progress>
                     </div>
                     <div class="progress-group">
                         <label for="file"><i class="fab fa-git-square"></i></label>

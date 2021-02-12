@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Header() {
     return (
         <header>
-            <div class="logo"><Link to="/"><img src="img/logo2-light.svg" alt="logo" /></Link> </div>
+            <div class="logo"><Link to="/"><div class="logo">S+>//>n</div></Link> </div>
             <nav>
                 <a onclick="mobileMenu()" href="#" class="hamburger"><span class="material-icons"> menu </span></a>
                 <ul>
