@@ -28,13 +28,13 @@ body {
 }
 
 .container {
-  background: var(--container-color);
+  background: rgba(130, 130, 130, 0.44);
   border-radius: 0.2rem;
 }
 
 h1, h2, h3 {
-  font-family: 'Dosis', sans-serif;
-  font-weight: 400;
+  font-family: 'Exo', sans-serif;
+  font-weight: 800;
   margin: 0;
   padding: 0;
 }
@@ -185,7 +185,8 @@ header nav ul li ul li a {
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
-}
+    background: rgba(130, 130, 130, 0.776);
+    padding: 2rem;}
 
 /* The typing effect */
 @keyframes typing {
@@ -198,27 +199,11 @@ header nav ul li ul li a {
   from, to { border-color: transparent }
   50% { border-color: orange; }
 }
-/* Google Fonts */
-/* @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro); */
-
-/* Animation */
-#hero-banner .hero-content h1{
-  animation: typewriter 4s steps(44) 1s 1 infinite normal,
-             blinkTextCursor 500ms steps(44) infinite normal;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 24em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
-}
 
 /* ========= */
 
 #hero-banner .hero-content h1 {
-  color: var(--dark-color);
+  color: var(--light-color);
   font-size: 2rem;
   font-weight: 200;
 }
@@ -233,9 +218,15 @@ h1 #h1-dif-color {
 
 /* ==============WORK============= */
 
+#work {
+  background: url("https://images.unsplash.com/photo-1515705576963-95cad62945b6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80")
+    no-repeat center center/cover fixed;
+}
+
 #work .container h2 {
   font-size: 2rem;
   margin-left: 0.5rem;
+  color: var(--light-color);
 }
 
 .content-work {
@@ -325,6 +316,7 @@ h1 #h1-dif-color {
 }
 
 #skills h2 {
+  color: var(--light-color);
   font-size: 2rem;
 }
 
