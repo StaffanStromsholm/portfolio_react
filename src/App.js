@@ -12,9 +12,9 @@ function App() {
     <div className="App">
       <Header />
       <Switch>
-        <Route exact path="/" component={Main} />
-        <Route exact path="/gallery" component={Gallery} />
-        <Route exact path="/animation" component={Animation} />
+        <Route exact path="/portfolio_react/" component={Main} />
+        <Route exact path="/portfolio_react/gallery" component={Gallery} />
+        <Route exact path="/portfolio_react/animation" component={Animation} />
       </Switch>
       <Footer />
     </div>
