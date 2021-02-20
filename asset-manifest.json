@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio_react/static/css/main.4480fa9e.chunk.css",
+    "main.js": "/portfolio_react/static/js/main.785a6698.chunk.js",
+    "main.js.map": "/portfolio_react/static/js/main.785a6698.chunk.js.map",
+    "runtime-main.js": "/portfolio_react/static/js/runtime-main.272da58a.js",
+    "runtime-main.js.map": "/portfolio_react/static/js/runtime-main.272da58a.js.map",
+    "static/js/2.aa82b36c.chunk.js": "/portfolio_react/static/js/2.aa82b36c.chunk.js",
+    "static/js/2.aa82b36c.chunk.js.map": "/portfolio_react/static/js/2.aa82b36c.chunk.js.map",
+    "index.html": "/portfolio_react/index.html",
+    "static/css/main.4480fa9e.chunk.css.map": "/portfolio_react/static/css/main.4480fa9e.chunk.css.map",
+    "static/js/2.aa82b36c.chunk.js.LICENSE.txt": "/portfolio_react/static/js/2.aa82b36c.chunk.js.LICENSE.txt",
+    "static/media/1295308.1a66b86f.svg": "/portfolio_react/static/media/1295308.1a66b86f.svg",
+    "static/media/Typescript_logo_2020.b26a2a86.svg": "/portfolio_react/static/media/Typescript_logo_2020.b26a2a86.svg",
+    "static/media/mongodb (1).e4025ae2.svg": "/portfolio_react/static/media/mongodb (1).e4025ae2.svg",
+    "static/media/sql-svgrepo-com.b708b66f.svg": "/portfolio_react/static/media/sql-svgrepo-com.b708b66f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.272da58a.js",
+    "static/js/2.aa82b36c.chunk.js",
+    "static/css/main.4480fa9e.chunk.css",
+    "static/js/main.785a6698.chunk.js"
+  ]
+}
