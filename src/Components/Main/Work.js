@@ -3,36 +3,36 @@ import React from 'react'
 function Work() {
     return (
         <section id="work">
-            <div class="container">
+            <div className="container">
                 <h2>Work</h2>
-                <div class="content-work">
-                    <div class="card-work">
+                <div className="content-work">
+                    <div className="card-work">
                         <img src="" alt="picture of hand holding lightbulb" />
                         <h3>Lorem</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, dicta ea temporibus deleniti nihil ab
               molestias illum facilis qui beatae.</p>
-                        <div class="read-more">Read More</div>
+                        <div className="read-more">Read More</div>
                     </div>
 
-                    <div class="card-work"><img src="" alt="picture of hand holding lightbulb" />
+                    <div className="card-work"><img src="" alt="picture of hand holding lightbulb" />
                         <h3>Lorem</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, dicta ea temporibus deleniti nihil ab
               molestias illum facilis qui beatae.</p>
-                        <div class="read-more">Read More</div>
+                        <div className="read-more">Read More</div>
                     </div>
-                    <div class="card-work"><img src="" alt="picture of hand holding lightbulb" />
+                    <div className="card-work"><img src="" alt="picture of hand holding lightbulb" />
                         <h3>Lorem</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, dicta ea temporibus deleniti nihil ab
               molestias illum facilis qui beatae.</p>
-                        <div class="read-more">
+                        <div className="read-more">
                             Read More
             </div>
                     </div>
-                    <div class="card-work"><img src="" alt="picture of hand holding lightbulb" />
+                    <div className="card-work"><img src="" alt="picture of hand holding lightbulb" />
                         <h3>Lorem</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, dicta ea temporibus deleniti nihil ab
                             molestias illum facilis qui beatae.</p>
-                        <div class="read-more">
+                        <div className="read-more">
                             Read More
             </div>
                     </div>

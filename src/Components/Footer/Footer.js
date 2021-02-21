@@ -2,8 +2,8 @@ import React from 'react';
 
 function Footer() {
     return (
-        <div class="copyright">
-    <div class="copyright-content">
+        <div className="copyright">
+    <div className="copyright-content">
       <p>Copyright &copy; Staffan Strömsholm</p>
     </div>
   </div>

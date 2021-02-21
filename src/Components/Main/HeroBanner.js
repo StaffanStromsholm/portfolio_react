@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import profilePic from './profilePic.JPG';
 
 const HeroBanner = () => {
     return (
         <section id="hero-banner">
-            <div class="hero-content">
-                <h1>Yeah, so welcome to my <span id="h1-dif-color">portfolio</span>
+            <div className="hero-content">
+                <h1>Welcome to my <span id="h1-dif-color">portfolio</span>
                 </h1>
+                <img class="profile-pic" src={profilePic}/>
             </div>
         </section>
     )
