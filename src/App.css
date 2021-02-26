@@ -50,7 +50,7 @@ header{
   justify-content: space-between;
   align-items: center;
   height: 7rem;
-  background-color: var(--light-color);
+  background-color: var(--dark-color);
   position: fixed;
   top: 0;
   left: 0;
@@ -60,8 +60,8 @@ header{
 
 .logo {
   font-family: 'Inconsolata', monospace;
-  font-size: 3rem;
-  padding-left: 2rem;
+  font-size: 2.5rem;
+  padding-left: .5rem;
 }
 
 .logo a {
@@ -91,7 +91,7 @@ header nav ul li i {
 
 header nav ul li .nav-item {
   text-decoration: none;
-  color: var(--dark-color);
+  color: var(--light-color);
   padding: 2.85rem 3rem;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -151,77 +151,88 @@ header nav ul li ul li a {
 /* ============hero-banner============ */
 
 #hero-banner {
+  position: relative;
   /* background: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80") no-repeat fixed center center/cover; */
-  background-color: orange;
+  background: url('https://images.unsplash.com/photo-1588392382834-a891154bca4d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2110&q=80') fixed center center/cover;
+  /* background-color: orange; */
+  background: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80') fixed center center/cover;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
 }
 
-#hero-banner::after {
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
-  content: "";
-}
-
-#hero-banner .hero-content {
+.hero-content {
+  margin: 0 3rem;
   border-radius: 0.2rem;
-  height: 10rem;
-  margin-top: 35vh;
+  height: 400px;
   z-index: 1;
+  position: relative;
 }
 
-/* ========= */
-
-#hero-banner .hero-content h1 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid black; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  /* letter-spacing: .15em; Adjust as needed */
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-    /* background: rgba(130, 130, 130, 0.776); */
+#typing {
+  font-size: 5rem;
+  color: black;
     padding: 0;
+    margin-top: 2rem;
     margin-bottom: 2rem;
+  border: 2px solid var(--light-color);
+  border-radius: 5px;
+  display: block;
+  margin: 2rem 11rem;
+  padding: 0 .5rem;
   }
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  .hero-content::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, .15);  
+      backdrop-filter: blur(5px);
+      z-index: -1;
+  }
+
+  #name {
+    margin-top: 3rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--light-color);
+  }
+
+.profile-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: black; }
+.profile-text p {
+  color: var(--light-color);
+  width: 320px;
 }
 
-.profile-pic {
-  width: 200px;
-  border-radius: 50%;
+.profile-pic:hover {
+  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
+}
+
+#resume {
+  color: var(--light-color);
 }
 
 /* ========= */
 
 #hero-banner .hero-content h1 {
-  color: var(--light-color);
+  color: var(--secondary-color);
   font-size: 2rem;
   font-weight: 500;
 }
 
-h2 {
-  padding: 3rem;
-}
-
 h1 #h1-dif-color {
-  color: var(--dark-color);
+  color: orange;
 }
 
 /* ==============WORK============= */
@@ -303,15 +314,14 @@ h1 #h1-dif-color {
 
 #experience .content {
   flex: 1;
-  padding: 0 3rem;
   line-height: 2rem;
+  padding-left: 2rem;
 }
 
 #experience h2 {
   font-size: 2rem;
   margin: 0;
-  padding-left: 0;
-  padding-top: 0;
+  padding-bottom: 2rem;
 }
 
 /* ===========SKILLS=========== */
@@ -458,8 +468,12 @@ h1 #h1-dif-color {
 /* ============= ANIMATION ============ */
 
 #animation {
-  position: relative;
-  background: var(--secondary-color);
+  position: absolute;
+  /* background: var(--secondary-color); */
+  background: black;
+  height: 100vh;
+  width: 100%;
+  top: 3rem;
 }
 .cogwheels {
   position: absolute;
@@ -524,6 +538,7 @@ h1 #h1-dif-color {
 
 .contact-me {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: url('https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2741&q=80') no-repeat center center/cover;
@@ -540,57 +555,20 @@ h1 #h1-dif-color {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 0;
-  
 }
 
-.contact-me form {
-  position: relative;
-  z-index: 1;
-  color: var(--light-color);
-  margin-bottom: 2rem;
-}
-
-.contact-me form h2 {
+.contact-me h2 {
   font-size: 2rem;
   text-align: center;
   z-index: 1;
-}
-
-.contact-me form .form-group, .contact-me form textarea {
-  margin-bottom: 1rem;
-}
-
-.contact-me form label {
-  display: inline-block;
-  width: 8rem;
-}
-
-.contact-me form input {
-  padding: 0.3rem;
-  width: 62%;
-}
-
-.contact-me form input, .contact-me form textarea {
-  font-family: 'Exo', sans-serif;
-}
-
-.contact-me form textarea {
-  width: 94%;
-}
-
-.contact-me button {
-  font-family: 'Exo', sans-serif;
-  width: 94%;
-  height: 61px;
-  background-color: var(--secondary-color);
-  color: var(--light-color);
-  font-size: 1.3rem;
-  border: none;
+  color: var(--secondary-color);
 }
 
 .contact-me p {
   text-align: center;
   padding: 2rem;
+  color:var(--light-color);
+  z-index: 1;
 }
 
 .copyright {
@@ -648,7 +626,6 @@ h1 #h1-dif-color {
     /* ===mobile-menu===== */
     header{
       display: flex;
-      height: 10rem;
     }
     
   
@@ -661,12 +638,16 @@ h1 #h1-dif-color {
   header nav ul {
       display: none;
       position: absolute;
-      top: 7.15rem;
+      top: 4.1rem;
       left: 0;
       background-color: rgba(255, 255, 255, 0);
       width: 100%;
       margin: 0;
       padding: 0;
+  }
+
+  span.material-icons {
+    color: var(--light-color);
   }
   
   header nav ul.mobilemenu {
@@ -718,7 +699,7 @@ h1 #h1-dif-color {
   }
 
   #experience .content {
-    margin: 2rem 0;
+    height: 100%;
   }
 
   #experience img {
@@ -741,16 +722,12 @@ h1 #h1-dif-color {
 #gallery h2 {
   margin-top: 3rem;
 }
-
 }
 
 
 /* for phones  */
 
 @media (max-width: 576px) {
-  header{
-    height: 8rem;
-  }
 
   header .logo a {
     padding: 1rem;
@@ -763,7 +740,7 @@ h1 #h1-dif-color {
   }
 
   header nav ul {
-    top: 5.15rem;
+    top: 4.1rem;
     background-color: rgba(255, 255, 255, 0);
 }
   
@@ -774,6 +751,22 @@ h1 #h1-dif-color {
 
   #hero-banner .hero-content h1 {
     font-size: 1.3rem;
+  }
+
+  .hero-content::before {
+    display: none;
+}
+
+#typing {
+  margin: 2rem 0;
+}
+
+  .profile-pic {
+    width: 100px;
+  }
+
+  #hero-banner p {
+    font-size: .8rem;
   }
 
   #work, #skills {
@@ -808,6 +801,11 @@ h1 #h1-dif-color {
 
   .card-work p {
     width: 100%;
+  }
+
+  #skills {
+    padding: 0;
+    margin: 0;
   }
 
   .contact-me .form-group label {

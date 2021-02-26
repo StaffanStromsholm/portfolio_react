@@ -2,29 +2,26 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Header() {
-    // window.onload = () => scrollCheck();
-    // window.onscroll = () => scrollCheck();
 
     const mobileMenu = () => document.querySelector('ul').classList.toggle('mobilemenu');
     const backToButton = document.getElementById("back-to-top");
     const width = window.matchMedia("(max-width: 576px)");
+    const closeMobileMenu = (e) => {
+        if(e.target.textContent === 'Home' ||
+        e.target.textContent === 'Work' ||
+        e.target.textContent === 'Experience' ||
+        e.target.textContent === 'Skills' ||
+        e.target.textContent === 'Animation' ||
+        e.target.textContent === 'Gallery'){
+            mobileMenu();
+        }
+    }
 
-    // const backToTop = () => {
-    //     document.body.scrollTop = 0;
-    //     document.documentElement.scrollTop = 0;
-    // };
-
-
-
-    // const scrollCheck = () =>
-    //     (document.body.scrollTop > 200 ||
-    //         (document.documentElement.scrollTop > 200 && !width.matches))
-    //         ? (backToButton.style.display = "flex")
-    //         : (backToButton.style.display = "none");
+    document.addEventListener('click', closeMobileMenu);
 
     return (
         <header>
-            <div className="logo"><Link to="/portfolio_react"><p className="logo">S+>//>n</p></Link> </div>
+            <div className="logo"><Link to="/portfolio_react"><p className="logo">|S+>//>n| <br></br> Strömsholm</p></Link> </div>
             <nav>
                 <a onClick={mobileMenu} href="#" className="hamburger"><span className="material-icons"> menu </span></a>
                 <ul>
