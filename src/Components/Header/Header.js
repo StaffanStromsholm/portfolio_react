@@ -21,7 +21,7 @@ function Header() {
 
     return (
         <header>
-            <div className="logo"><Link to="/portfolio_react"><p className="logo">|S+>//>n| <br></br> Strömsholm</p></Link> </div>
+            <div className="logo"><Link to="/portfolio_react"><p className="logo">|S+>//>n|</p></Link> </div>
             <nav>
                 <a onClick={mobileMenu} href="#" className="hamburger"><span className="material-icons"> menu </span></a>
                 <ul>
@@ -35,7 +35,7 @@ function Header() {
                             <li><Link to="/portfolio_react/animation">Animation</Link></li>
                         </ul>
                     </li>
-                    <li><a className="nav-item" href="#contact-me">Contact Me</a></li>
+                    <li><Link className="nav-item" to="/portfolio_react/#contact-me">Contact</Link></li>
                 </ul>
             </nav>
         </header>

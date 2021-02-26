@@ -1,7 +1,7 @@
 import React from 'react';
-import TSLogo from './Typescript_logo_2020.svg';
-import mongoLogo from './mongodb (1).svg'
-import SQLLogo from './sql-svgrepo-com.svg';
+import TSLogo from './assets/images/Typescript_logo_2020.svg';
+import mongoLogo from './assets/images/mongodb (1).svg'
+import SQLLogo from './assets/images/sql-svgrepo-com.svg';
 
 const Skills = () => {
     return (
