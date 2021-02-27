@@ -1,0 +1,74 @@
+{"posts": [
+    {
+        "id": 1,
+        "title": "Interactive CV, Flappy Bird style",
+        "imgURL": "https://lh3.googleusercontent.com/7IdTrodajzTzKxuos0bp1d46yEo2E1h_TaFKn7xo1Crwtn8952m783kdYwKNV1Q7V1MIm-yYHaNU8q1mJuzWuhNqZ0e1Y9lWsZTGl9o9Mq8UR8fTK7B0sWU5UE6FzZrl-X1RuLYQUA=w2400",
+        "description": "HTML, CSS, Javascript. Here I practised object oriented programming. On desktop you can use space to jump and arrows to move sideways, on mobile you use the buttons on the screen.",
+        "liveURL": "https://staffanstromsholm.github.io/Staffan-Str-msholm-Interactive-CV/",
+        "githubURL": "https://github.com/StaffanStromsholm/Staffan-Str-msholm-Interactive-CV"
+    },
+    {
+        "id": 2,
+        "title": "Group Project 1",
+        "imgURL": "https://lh3.googleusercontent.com/oTz9j5dneUwp6QvFMuf4nE8aStfNQ2x-CZ3XZykPCerqVvCZMWcVFfzUQsZS0Udj686et0X8zjrMkjVcbO_Rx6BqQAlKWSy01bo-oACGMplWFQOw6OKbgT4V8HKB7fPh4Vmll5xTzg=w2400",
+        "description": "HTML, CSS, Javascript. Group project in Business College Helsinki with the working name 'Are you bored?'. It is an application that gives the user suggestions of books to read, music to listen to, news to read and movies to watch, depending on what genre or topic the user chooses. The application fetches data from four different APIs. I implemented the logic and UX/UI for the music and movie sections.",
+        "liveURL": "",
+        "githubURL": "https://github.com/StaffanStromsholm/are_you_bored"
+    },
+    {
+        "id": 3,
+        "title": "Group Project 2",
+        "imgURL": "https://lh3.googleusercontent.com/6Al4eoAP2cyQWrQDEkvPYfDE87sWa6XorWLrK0zgwJSc1soEfR4CX8rZCtLkX0Sk9EyRUt2r_dZQyn0gC6jIvpUTLzDBlR9lqDzPf6da1yUy3wQ3hlZgTot-Ir8HqtOx-psx5VyWWg=w2400",
+        "description": "React, Node. Second group project from BCH. It is a beginning of a social media app where the core idea is that logged in users can store posts containing addresses that will be rendered on a map. I worked with React components and implemented HERE maps.",
+        "liveURL": "",
+        "githubURL": ""
+    },
+    {
+        "id": 4,
+        "title": "Typescript calculator",
+        "imgURL": "https://lh3.googleusercontent.com/rvNE0p_9Uys-TSx917wQwZrRahIWN-r8xpx4RcMUTiQ8RTn64wFJx1kYUR9oHvaCj39Pr7p1krKfqsflF8uuNNkFofbTi_H0T3jfrTIuBWRZ_9KbJ-aII9jOmMffo8F4g8cLWvUshw=w2400",
+        "description": "Typescript. Here I practised typescript and wrote the calculator logic in two different ways. The first version more hand crafted, the second one using eval().",
+        "liveURL": "https://staffanstromsholm.github.io/Typescript-calculator/",
+        "githubURL": "https://github.com/StaffanStromsholm/Typescript-calculator"
+    },
+    {
+        "id": 5,
+        "title": "Covid-19 Tracker",
+        "imgURL": "https://lh3.googleusercontent.com/W2Wv3yo-XvDKPTfo62c0zqxvL0EZCcXnEeEDCMcrNLQsF0nw8Ga4oRvnq4N9yanQnA998hw5lLN9VjpQEejs6w9Bqa48zbcZpDXioTR9TGG1jU-hzCNLNyRExhZvQw4OVAhw-2IWig=w2400",
+        "description": "",
+        "liveURL": "https://staffanstromsholm.github.io/covid19tracker/",
+        "githubURL": "https://github.com/StaffanStromsholm/covid19tracker"
+    },
+    {
+        "id": 6,
+        "title": "My Garage",
+        "imgURL": "https://lh3.googleusercontent.com/VcIz6r3Xz8i_x8PhcXf6eBCIWAlTLSEnTYR1zQRAPGMFOcpLZ8YL7GxfQOxCSGZJC-ytcuG3BfQ-20uouGWwdyq6McyCoyuKilh3qBatOlvcLb1gqous-NGauR7S_5xe_cTHIi958Q=w2400",
+        "description": "",
+        "liveURL": "",
+        "githubURL": ""
+    },
+    {
+        "id": 7,
+        "title": "Speed Game",
+        "imgURL": "https://lh3.googleusercontent.com/SDZ78-OnUb2ca8ViEetgVbBT6uXyRwJcLGg8N0sLgK7qVwgWp2llguZtvuNGmU3sy8rSIE98zHL4eOMQcpVPiVdljsa6MqwxCjiDarTWp9o47CdLnIAsRsW4c4EEe_yEe2QORcfPkA=w2400",
+        "description": "",
+        "liveURL": "",
+        "githubURL": ""
+    },
+    {
+        "id": 8,
+        "title": "Todo App",
+        "imgURL": "https://lh3.googleusercontent.com/aTGFBzmbOJTJUrcWeu4TYITYkHrHQ_LaUqZXJCJDm9iNWCncfxe_zLAyQ4dhg8m-6aTAZgnwH-fixFs9tYqDDKcbcINdFTbDj0IRo4F5D5WIBdIOjYCsvUv7GjCaC-PUo_Ep-nBJlQ=w2400",
+        "description": "",
+        "liveURL": "",
+        "githubURL": ""
+    },
+    {
+        "id": 9,
+        "title": "mock Blog App",
+        "imgURL": "https://lh3.googleusercontent.com/MBdd3oddeL3uhS3YSmuR1G_6RdlLasQd2gE1w49KflfRC_Il40jK4PXvBBQ-pOZWAPXc0A5gEj40ySmr-yyTEa-d_433ocyZEHbBHKyjlZ-bgNZDZ6b3dKVOKJu4xyK9xaONHXWcDg=w2400",
+        "description": "",
+        "liveURL": "",
+        "githubURL": ""
+    }
+]}

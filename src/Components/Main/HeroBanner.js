@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import profilePic from './assets/images/profilePic.JPG';
 import resume from './assets/documents/resume.pdf';
 
 

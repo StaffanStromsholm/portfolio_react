@@ -152,7 +152,7 @@ header nav ul li ul li a {
 #hero-banner {
   position: relative;
   /* background: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80") no-repeat fixed center center/cover; */
-  background: url('https://images.unsplash.com/photo-1588392382834-a891154bca4d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2110&q=80') fixed center center/cover;
+  /* background: url('https://images.unsplash.com/photo-1588392382834-a891154bca4d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2110&q=80') fixed center center/cover; */
   /* background-color: orange; */
   background: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80') fixed center center/cover;
   height: 100vh;
@@ -275,12 +275,16 @@ h1 #h1-dif-color {
   opacity: .8;
 } 
 
+.icons {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
 .card-work img {
   width: 100%;
   height: 300px;
   margin-bottom: 1rem;
-  object-fit: cover;
-  background: center center;
+  object-fit: scale-down;
 }
 
 .card-work .read-more {
@@ -761,6 +765,13 @@ h1 #h1-dif-color {
   header nav ul li a {
     padding: 0rem 0.2rem;
     font-size: 0.8rem;
+  }
+
+  #hero-banner {
+    /* background: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80") no-repeat fixed center center/cover; */
+    /* background: url('https://images.unsplash.com/photo-1588392382834-a891154bca4d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2110&q=80') fixed center center/cover; */
+    /* background-color: orange; */
+    background: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80') no-repeat fixed center center/cover;
   }
 
   #hero-banner .hero-content h1 {
