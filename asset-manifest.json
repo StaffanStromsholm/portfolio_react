@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio_react/static/css/main.1688f749.chunk.css",
-    "main.js": "/portfolio_react/static/js/main.50c87c9b.chunk.js",
-    "main.js.map": "/portfolio_react/static/js/main.50c87c9b.chunk.js.map",
+    "main.css": "/portfolio_react/static/css/main.60ab5158.chunk.css",
+    "main.js": "/portfolio_react/static/js/main.6e9f146b.chunk.js",
+    "main.js.map": "/portfolio_react/static/js/main.6e9f146b.chunk.js.map",
     "runtime-main.js": "/portfolio_react/static/js/runtime-main.272da58a.js",
     "runtime-main.js.map": "/portfolio_react/static/js/runtime-main.272da58a.js.map",
     "static/js/2.aa82b36c.chunk.js": "/portfolio_react/static/js/2.aa82b36c.chunk.js",
     "static/js/2.aa82b36c.chunk.js.map": "/portfolio_react/static/js/2.aa82b36c.chunk.js.map",
     "index.html": "/portfolio_react/index.html",
-    "static/css/main.1688f749.chunk.css.map": "/portfolio_react/static/css/main.1688f749.chunk.css.map",
+    "static/css/main.60ab5158.chunk.css.map": "/portfolio_react/static/css/main.60ab5158.chunk.css.map",
     "static/js/2.aa82b36c.chunk.js.LICENSE.txt": "/portfolio_react/static/js/2.aa82b36c.chunk.js.LICENSE.txt",
     "static/media/1295308.1a66b86f.svg": "/portfolio_react/static/media/1295308.1a66b86f.svg",
     "static/media/Calculator.d02233ab.png": "/portfolio_react/static/media/Calculator.d02233ab.png",
@@ -20,8 +20,8 @@
     "static/media/Todo-app.04abf7f5.png": "/portfolio_react/static/media/Todo-app.04abf7f5.png",
     "static/media/Typescript_logo_2020.b26a2a86.svg": "/portfolio_react/static/media/Typescript_logo_2020.b26a2a86.svg",
     "static/media/areYouBored.e770b423.png": "/portfolio_react/static/media/areYouBored.e770b423.png",
+    "static/media/blog.e574785c.png": "/portfolio_react/static/media/blog.e574785c.png",
     "static/media/mongodb (1).e4025ae2.svg": "/portfolio_react/static/media/mongodb (1).e4025ae2.svg",
-    "static/media/profilePic.f46b681c.JPG": "/portfolio_react/static/media/profilePic.f46b681c.JPG",
     "static/media/profilePic.f46b681c.jpg": "/portfolio_react/static/media/profilePic.f46b681c.jpg",
     "static/media/resume.2f9ce355.pdf": "/portfolio_react/static/media/resume.2f9ce355.pdf",
     "static/media/sql-svgrepo-com.b708b66f.svg": "/portfolio_react/static/media/sql-svgrepo-com.b708b66f.svg"
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.272da58a.js",
     "static/js/2.aa82b36c.chunk.js",
-    "static/css/main.1688f749.chunk.css",
-    "static/js/main.50c87c9b.chunk.js"
+    "static/css/main.60ab5158.chunk.css",
+    "static/js/main.6e9f146b.chunk.js"
   ]
 }
