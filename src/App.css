@@ -287,6 +287,10 @@ h1 #h1-dif-color {
   object-fit: scale-down;
 }
 
+.project-links {
+  list-style-type: none;
+}
+
 .card-work .read-more {
   text-decoration: underline;
   margin-top: 1rem;

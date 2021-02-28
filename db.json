@@ -19,7 +19,7 @@
         "id": 3,
         "title": "Group Project 2",
         "imgURL": "https://lh3.googleusercontent.com/6Al4eoAP2cyQWrQDEkvPYfDE87sWa6XorWLrK0zgwJSc1soEfR4CX8rZCtLkX0Sk9EyRUt2r_dZQyn0gC6jIvpUTLzDBlR9lqDzPf6da1yUy3wQ3hlZgTot-Ir8HqtOx-psx5VyWWg=w2400",
-        "description": "React, Node. Second group project from BCH. It is a beginning of a social media app where the core idea is that logged in users can store posts containing addresses that will be rendered on a map. I worked with React components and implemented HERE maps.",
+        "description": "Built with React, Node. Second group project from BCH. It is a beginning of a social media app where the core idea is that logged in users can store posts containing addresses that will be rendered on a map. I worked with React components and implemented HERE maps.",
         "liveURL": "",
         "githubURL": ""
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "title": "Typescript calculator",
         "imgURL": "https://lh3.googleusercontent.com/rvNE0p_9Uys-TSx917wQwZrRahIWN-r8xpx4RcMUTiQ8RTn64wFJx1kYUR9oHvaCj39Pr7p1krKfqsflF8uuNNkFofbTi_H0T3jfrTIuBWRZ_9KbJ-aII9jOmMffo8F4g8cLWvUshw=w2400",
-        "description": "Typescript. Here I practised typescript and wrote the calculator logic in two different ways. The first version more hand crafted, the second one using eval().",
+        "description": "Here I practised typescript and wrote the calculator logic in two different ways. The first version more hand crafted, the second one using eval().",
         "liveURL": "https://staffanstromsholm.github.io/Typescript-calculator/",
         "githubURL": "https://github.com/StaffanStromsholm/Typescript-calculator"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "title": "Covid-19 Tracker",
         "imgURL": "https://lh3.googleusercontent.com/W2Wv3yo-XvDKPTfo62c0zqxvL0EZCcXnEeEDCMcrNLQsF0nw8Ga4oRvnq4N9yanQnA998hw5lLN9VjpQEejs6w9Bqa48zbcZpDXioTR9TGG1jU-hzCNLNyRExhZvQw4OVAhw-2IWig=w2400",
-        "description": "",
+        "description": "A Covid-19 tracking application built with React.",
         "liveURL": "https://staffanstromsholm.github.io/covid19tracker/",
         "githubURL": "https://github.com/StaffanStromsholm/covid19tracker"
     },
@@ -43,32 +43,32 @@
         "id": 6,
         "title": "My Garage",
         "imgURL": "https://lh3.googleusercontent.com/VcIz6r3Xz8i_x8PhcXf6eBCIWAlTLSEnTYR1zQRAPGMFOcpLZ8YL7GxfQOxCSGZJC-ytcuG3BfQ-20uouGWwdyq6McyCoyuKilh3qBatOlvcLb1gqous-NGauR7S_5xe_cTHIi958Q=w2400",
-        "description": "",
+        "description": "Here I practiced Node, Express and EJS. A simple CRUD application for storing data about cars.",
         "liveURL": "",
-        "githubURL": ""
+        "githubURL": "https://github.com/StaffanStromsholm/car_project"
     },
     {
         "id": 7,
         "title": "Speed Game",
         "imgURL": "https://lh3.googleusercontent.com/SDZ78-OnUb2ca8ViEetgVbBT6uXyRwJcLGg8N0sLgK7qVwgWp2llguZtvuNGmU3sy8rSIE98zHL4eOMQcpVPiVdljsa6MqwxCjiDarTWp9o47CdLnIAsRsW4c4EEe_yEe2QORcfPkA=w2400",
-        "description": "",
-        "liveURL": "",
-        "githubURL": ""
+        "description": "Built with React. Game based on the classic reaction speed game.",
+        "liveURL": "https://staffanstromsholm.github.io/SpeedGame/",
+        "githubURL": "https://github.com/StaffanStromsholm/SpeedGame"
     },
     {
         "id": 8,
         "title": "Todo App",
         "imgURL": "https://lh3.googleusercontent.com/aTGFBzmbOJTJUrcWeu4TYITYkHrHQ_LaUqZXJCJDm9iNWCncfxe_zLAyQ4dhg8m-6aTAZgnwH-fixFs9tYqDDKcbcINdFTbDj0IRo4F5D5WIBdIOjYCsvUv7GjCaC-PUo_Ep-nBJlQ=w2400",
-        "description": "",
+        "description": "Simple Todo App built with React and redux.",
         "liveURL": "",
-        "githubURL": ""
+        "githubURL": "https://github.com/StaffanStromsholm/react-redux-todo"
     },
     {
         "id": 9,
-        "title": "mock Blog App",
+        "title": "Mock Blog App",
         "imgURL": "https://lh3.googleusercontent.com/MBdd3oddeL3uhS3YSmuR1G_6RdlLasQd2gE1w49KflfRC_Il40jK4PXvBBQ-pOZWAPXc0A5gEj40ySmr-yyTEa-d_433ocyZEHbBHKyjlZ-bgNZDZ6b3dKVOKJu4xyK9xaONHXWcDg=w2400",
-        "description": "",
-        "liveURL": "",
-        "githubURL": ""
+        "description": "Mock Blog application to practise simple routes, nested routes and conditional rendering in React.",
+        "liveURL": "https://staffanstromsholm.github.io/react_assignement/",
+        "githubURL": "https://github.com/StaffanStromsholm/react_assignement"
     }
 ]}
