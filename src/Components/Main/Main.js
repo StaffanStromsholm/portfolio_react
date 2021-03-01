@@ -10,7 +10,7 @@ function Main() {
         <div className="Main">
             <HeroBanner />
             <Work />
-            <Experience/> 
+            {/* <Experience/>  */}
             <Skills />   
             <Contact />    
             </div>);
