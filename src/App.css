@@ -38,7 +38,7 @@ h1, h2, h3 {
   padding: 0;
 }
 
-#work, #skills {
+#projects, #skills {
   padding: 3rem;
 }
 
@@ -215,7 +215,7 @@ header nav ul li ul li a {
 }
 
 #resume {
-  color: var(--light-color);
+  color: var(--secondary-color);
 }
 
 /* ========= */
@@ -230,27 +230,27 @@ h1 #h1-dif-color {
   color: var(--secondary-color);
 }
 
-/* ==============WORK============= */
+/* ==============Projects============= */
 
-#work {
+#projects {
   /* background: url("https://images.unsplash.com/photo-1515705576963-95cad62945b6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80") */
     /* no-repeat center center/cover fixed; */
   background-color: var(--dark-color);
 }
 
-#work .container h2 {
+#projects .container h2 {
   font-size: 2rem;
   padding: 0 0 2rem 0;
   color: var(--secondary-color);
 }
 
-.content-work {
+.content-projects {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.card-work {
+.card-projects {
   background-color: var(--light-color);
   padding: 1rem;
   margin: 0.5rem;
@@ -258,18 +258,18 @@ h1 #h1-dif-color {
   transition: all 0.5s;
 } 
 
-.card-work h3 {
+.card-projects h3 {
   font-size: 1.5rem;
   font-weight: 400;
   margin-bottom: 1.5rem;
 }
 
-.card-work p {
+.card-projects p {
   margin-bottom: 1.5rem;
   line-height: 2rem;
 }
 
-.card-work:hover {
+.card-projects:hover {
   box-shadow: 3px 3px 30px;
   transform: scale(1.05);
   opacity: .8;
@@ -280,7 +280,7 @@ h1 #h1-dif-color {
   margin-bottom: 1rem;
 }
 
-.card-work img {
+.card-projects img {
   width: 100%;
   height: 300px;
   margin-bottom: 1rem;
@@ -291,13 +291,13 @@ h1 #h1-dif-color {
   list-style-type: none;
 }
 
-.card-work .read-more {
+.card-projects .read-more {
   text-decoration: underline;
   margin-top: 1rem;
   color: var(--secondary-color);
 }
 
-.card-work .read-more:hover {
+.card-projects .read-more:hover {
   cursor: pointer;
 }
 
@@ -711,7 +711,7 @@ h1 #h1-dif-color {
     /* margin: 0 auto; */
   }
 
-  .card-work {
+  .card-projects {
     width: 90%;
   } 
 
@@ -728,7 +728,7 @@ h1 #h1-dif-color {
     width: 100%;
     margin-right: 0;
   }
-  .content-work {
+  .content-projects {
     padding: 0;
   }
 
@@ -807,7 +807,7 @@ h1 #h1-dif-color {
     /* margin: 0 auto; */
   }
 
-  #work, #skills {
+  #projects, #skills {
     padding: 0;
   }
 
@@ -821,23 +821,23 @@ h1 #h1-dif-color {
     padding-left: 2rem;
   }
 
-  #work .container h2 {
+  #projects .container h2 {
     margin-left: 0;
   }
 
-  .content-work {
+  .content-projects {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .card-work {
+  .card-projects {
     width: 90%;
     padding: .5rem;
     margin-bottom: 2rem;
   }
 
-  .card-work p {
+  .card-projects p {
     width: 100%;
   }
 

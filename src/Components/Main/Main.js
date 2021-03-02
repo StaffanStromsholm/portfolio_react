@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroBanner from '../Main/HeroBanner';
-import Work from '../Main/Work';
+import Projects from '../Main/Projects';
 import Experience from '../Main/Experience';
 import Skills from '../Main/Skills';
 import Contact from './/Contact';
@@ -9,7 +9,7 @@ function Main() {
     return (
         <div className="Main">
             <HeroBanner />
-            <Work />
+            <Projects />
             {/* <Experience/>  */}
             <Skills />   
             <Contact />    

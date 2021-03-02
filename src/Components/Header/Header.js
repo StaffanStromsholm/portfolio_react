@@ -8,7 +8,7 @@ function Header() {
     const width = window.matchMedia("(max-width: 576px)");
     const closeMobileMenu = (e) => {
         if(e.target.textContent === 'Home' ||
-        e.target.textContent === 'Work' ||
+        e.target.textContent === 'Projects' ||
         e.target.textContent === 'Experience' ||
         e.target.textContent === 'Skills' ||
         e.target.textContent === 'Animation' ||
@@ -28,8 +28,8 @@ function Header() {
                     <li><a className="nav-item" href="#">Portfolio <i className="fas fa-chevron-down"></i></a>
                         <ul className="dropdown-list">
                             <li><a href="/portfolio_react/#home">Home</a></li>
-                            <li><a href="/portfolio_react/#work">Work</a></li>
-                            <li><a href="/portfolio_react/#experience">Experience</a></li>
+                            <li><a href="/portfolio_react/#projects">Projects</a></li>
+                            {/* <li><a href="/portfolio_react/#experience">Experience</a></li> */}
                             <li><a href="/portfolio_react/#skills">Skills</a></li>
                             <li><Link to="/portfolio_react/gallery">Gallery</Link></li>
                             <li><Link to="/portfolio_react/animation">Animation</Link></li>

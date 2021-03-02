@@ -7,10 +7,7 @@ const Experience = () => {
             <div className="content">
                 <h2>Experience</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
-                    natus eos harum deleniti dignissimos mollitia necessitatibus
-                    veritatis, sint iusto, deserunt quam, culpa aliquam facilis iure
-                    libero. At iusto, ad non excepturi voluptatum temporibus dolorum.
+                    
         </p>
             </div>
         </section>

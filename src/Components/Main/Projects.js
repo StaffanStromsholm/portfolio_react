@@ -1,16 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import areYouBoredImg from './assets/images/areYouBored.png';
-import calculatorImg from './assets/images/Calculator.png';
-import covidImg from './assets/images/Covid19-tracker.png';
-import groupProject2 from './assets/images/Group-project-2.png';
-import interactiveCv from './assets/images/Interactive-cv.png';
-import myGarage from './assets/images/My-garage.png';
-import speedGame from './assets/images/SpeedGame.png';
-import todoApp from './assets/images/Todo-app.png';
-import blog from './assets/images/blog.png';
 import axios from 'axios';
 
-function Work() {
+function Projects() {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
@@ -19,30 +10,33 @@ function Work() {
     }, []);
 
     return (
-        <section id="work">
+        <section id="projects">
             <div className="container">
-                <h2>Work</h2>
-                <div className="content-work">
+                <h2>Projects</h2>
+                <div className="content-projects">
                     {posts.map(post => {
                         console.log(post)
                     })}
                     {posts.map(post => (
-                        <div className="card-work"><img src={post.imgURL} alt={post.title} />
+                        <div className="card-projects"><img src={post.imgURL} alt={post.title} />
                             <h3>{post.title}</h3>
                             <p>{post.description}</p>
                             <ul className="project-links">
+                                {post.liveURL &&
                                 <li>
                                     <a href={post.liveURL} className="read-more">
-
                                         <i class="icons fas fa-laptop"></i> Link to live version
-                        </a>
-                                </li>
+                                    </a>
+                                </li>}
+
+                                {post.githubURL && 
                                 <li>
-                                <a href={post.githubURL} className="read-more"><i class="icons fa fa-github-square"></i></a>
-                                </li>
+                                    <a href={post.githubURL} className="read-more"><i class="icons fa fa-github-square"></i>Link to GitHub</a>
+                                </li>}
+
                             </ul>
 
-                            
+
                         </div>
                     ))}
                 </div>
@@ -52,4 +46,4 @@ function Work() {
     );
 };
 
-export default Work;
+export default Projects;
