@@ -160,22 +160,32 @@ header nav ul li ul li a {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  overflow: hidden;
 }
 
 .hero-content {
   position: relative;
-  width: 600px;
-  border-radius: 0.2rem;
-  height: 400px;
-  z-index: 1;
   margin: 0 auto;
+  padding-top: 8rem;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.315);
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#profile-pic {
+  width: 150px;
+  z-index: 6;
+  border-radius: 50%;
+  margin-bottom: 2rem;
 }
 
 #typing {
   font-size: 5rem;
   color: black;
     padding: 0;
-    margin-top: 2rem;
     margin-bottom: 2rem;
   border: 2px solid var(--light-color);
   border-radius: 5px;
@@ -184,20 +194,7 @@ header nav ul li ul li a {
   padding: 0 .5rem;
   }
 
-  .hero-content::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(255, 255, 255, .15);  
-      backdrop-filter: blur(5px);
-      z-index: -1;
-  }
-
   #name {
-    margin-top: 3rem;
     font-size: 2rem;
     text-transform: uppercase;
     color: var(--light-color);
@@ -207,11 +204,13 @@ header nav ul li ul li a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* width: 600px; */
+  text-align: center;
 }
 
 .profile-text p {
   color: var(--light-color);
-  width: 320px;
+  width: 400px;
 }
 
 #resume {
@@ -562,13 +561,6 @@ h1 #h1-dif-color {
   z-index: 0;
 }
 
-#profile-pic {
-  width: 200px;
-  z-index: 1;
-  border-radius: 50%;
-  margin-bottom: 2rem;
-}
-
 #contact-me h2 {
   font-size: 2rem;
   z-index: 1;
@@ -702,15 +694,6 @@ h1 #h1-dif-color {
     font-size: 2rem;
   }
 
-  .hero-content {
-    position: relative;
-    width: 400px;
-    border-radius: 0.2rem;
-    height: 400px;
-    z-index: 1;
-    /* margin: 0 auto; */
-  }
-
   .card-projects {
     width: 90%;
   } 
@@ -732,14 +715,6 @@ h1 #h1-dif-color {
     padding: 0;
   }
 
-.contact-me textarea {
-  width: 96%;
-}
-
-.contact-me button {
-  font-family: 'Exo', sans-serif;
-  width: 96%;
-}
 
 #gallery h2 {
   margin-top: 3rem;
@@ -750,6 +725,10 @@ h1 #h1-dif-color {
 /* for phones  */
 
 @media (max-width: 576px) {
+
+  header{
+    width: 100vw;
+  }
 
   header .logo a {
     padding: 1rem;
@@ -765,16 +744,15 @@ h1 #h1-dif-color {
     top: 4.1rem;
     background-color: rgba(255, 255, 255, 0);
 }
-  
+  a.hamburger{
+    padding: 0;
+  }
   header nav ul li a {
     padding: 0rem 0.2rem;
     font-size: 0.8rem;
   }
 
   #hero-banner {
-    /* background: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80") no-repeat fixed center center/cover; */
-    /* background: url('https://images.unsplash.com/photo-1588392382834-a891154bca4d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2110&q=80') fixed center center/cover; */
-    /* background-color: orange; */
     background: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80') no-repeat fixed center center/cover;
   }
 
@@ -782,29 +760,25 @@ h1 #h1-dif-color {
     font-size: 1.3rem;
   }
 
-  .hero-content::before {
-    display: none;
-}
-
 #typing {
   width: 18rem;
 }
 
-  .profile-pic {
-    width: 100px;
+.profile-text p {
+  color: var(--light-color);
+  width: 300px;
+}
+
+  #profile-pic {
+    width: 120px;
+  }
+
+  #name {
+    font-size: 1.6rem;
   }
 
   #hero-banner p {
     font-size: .8rem;
-  }
-
-  .hero-content {
-    position: relative;
-    width: 300px;
-    border-radius: 0.2rem;
-    height: 400px;
-    z-index: 1;
-    /* margin: 0 auto; */
   }
 
   #projects, #skills {
@@ -846,22 +820,12 @@ h1 #h1-dif-color {
     margin: 0;
   }
 
-  .contact-me .form-group label {
-    display: block;
-  }
-
-  .contact-me .form-group input, .contact-me .form-group textarea {
-    width: 100%;
-  }
-
-  .contact-me button {
-    font-family: 'Exo', sans-serif;
-    width: 100%;
-
-  }
   #gallery{
     padding: 0.5rem;
     margin-top: 8rem;
+  }
+  #contact-me p {
+    padding: 0;
   }
 }
 

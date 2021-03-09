@@ -33,10 +33,7 @@ function Projects() {
                                 <li>
                                     <a href={post.githubURL} className="read-more"><i class="icons fa fa-github-square"></i>Link to GitHub</a>
                                 </li>}
-
                             </ul>
-
-
                         </div>
                     ))}
                 </div>

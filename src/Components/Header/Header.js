@@ -29,13 +29,12 @@ function Header() {
                         <ul className="dropdown-list">
                             <li><a href="/portfolio_react/#home">Home</a></li>
                             <li><a href="/portfolio_react/#projects">Projects</a></li>
-                            {/* <li><a href="/portfolio_react/#experience">Experience</a></li> */}
                             <li><a href="/portfolio_react/#skills">Skills</a></li>
                             <li><Link to="/portfolio_react/gallery">Gallery</Link></li>
                             <li><Link to="/portfolio_react/animation">Animation</Link></li>
                         </ul>
                     </li>
-                    <li><Link className="nav-item" to="/portfolio_react/#contact-me">Contact</Link></li>
+                    <li><a className="nav-item" href="/portfolio_react/#contact-me">Contact</a></li>
                 </ul>
             </nav>
         </header>

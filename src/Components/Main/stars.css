@@ -1,0 +1,32 @@
+  #hero-banner .star {
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+  }
+  #hero-banner .star.far {
+    width: 1px;
+    height: 1px;
+  }
+  #hero-banner .star.near {
+    width: 4px;
+    height: 4px;
+  }
+  #hero-banner .star.white {
+    background: #fff;
+    box-shadow: 0 0 15px #fff;
+  }
+  #hero-banner .star.yellow {
+    background: #bfbb40;
+    box-shadow: 0 0 15px #bfbb40;
+  }
+  #hero-banner .star.blue {
+    background: #4444ff;
+    box-shadow: 0 0 15px #4444ff;
+  }
+  #hero-banner .star.red {
+    background: #ff4444;
+    box-shadow: 0 0 15px #ff4444;
+  }
+  
