@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import resume from './assets/documents/resume.pdf';
 import profilePic from './assets/images/profilePic.jpg';
-import './arrow.css'
+import './arrow.css';
 
 import './stars.css';
 
@@ -122,7 +122,7 @@ const HeroBanner = () => {
                     <div class="profile-text">
                         <p>Welcome to my portfolio website! I have built applications using HTML, CSS, Javascript, React and Node. This website is built with React. If you want to see my projects, please scroll down. If you want to get straight to my resumé, you can download it <a id="resume" href={resume} download="Staffan-Strömsholm-resumé">here</a></p>
                     </div>
-                    <div className="arrow bounce"></div>
+                    <div className="arrow"></div>
                 </div>
             </div>
         </section>

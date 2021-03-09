@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import Carousel from 'react-elastic-carousel';
+import './arrow.css';
 
 function Projects() {
     const [posts, setPosts] = useState([]);
@@ -10,37 +12,25 @@ function Projects() {
     }, []);
 
     return (
-        <section id="projects">
-            <div className="container">
-                <h2>Projects</h2>
-                <div className="content-projects">
-                    {posts.map(post => {
-                        console.log(post)
-                    })}
-                    {posts.map(post => (
-                        <div className="card-projects"><img src={post.imgURL} alt={post.title} />
-                            <h3>{post.title}</h3>
-                            <p>{post.description}</p>
-                            <ul className="project-links">
-                                {post.liveURL &&
-                                <li>
-                                    <a href={post.liveURL} className="read-more">
-                                        <i class="icons fas fa-laptop"></i> Link to live version
-                                    </a>
-                                </li>}
-
-                                {post.githubURL && 
-                                <li>
-                                    <a href={post.githubURL} className="read-more"><i class="icons fa fa-github-square"></i>Link to GitHub</a>
-                                </li>}
-                            </ul>
-                        </div>
-                    ))}
-                </div>
+        <Carousel className="projects">
+             <div className="arrow-right">My projects <i class="bounce-right fas fa-chevron-right"></i></div>
+            {posts.map(post =>
+            <div className="project-info">
+                <div className="project-img"><img src={post.imgURL}></img></div>
+               
+            <h4 className="project-title">{post.title}</h4>
+            <p className="project-description">{post.description}</p>
+            <ul>
+                {post.liveURL && <li className="project-link"><a href={post.liveURL}><i class=" fas fa-chevron-right"></i> Live</a></li>}
+                {post.githubURL && <li className="project-link"><a href={post.githubURL}><i class="fas fa-chevron-right"></i> GitHub</a></li>}
+            </ul>
             </div>
-
-        </section>
-    );
+            )}
+        </Carousel>
+           
+                    
+        
+                );
 };
 
 export default Projects;
