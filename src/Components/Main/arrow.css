@@ -115,10 +115,17 @@
     animation: bounce 2s infinite;
   }
 
+  .fas {
+  }
+
   .bounce-right {
     -moz-animation: bounce-right 2s infinite;
     -webkit-animation: bounce-right 2s infinite;
     animation: bounce-right 2s infinite;
+    color: var(--secondary-color);
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 2rem;
   }
 
   .arrow-right {
@@ -132,8 +139,14 @@
       bottom: 30px;
     }
     .arrow-right {
-      padding-top: 11.3rem;
-      font-size: 2rem;
+      padding-top: 19.5rem;
+      font-size: 1.4rem;
+    }
+
+
+
+    .bounce-right {
+
     }
 
   }
