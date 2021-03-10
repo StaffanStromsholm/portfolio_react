@@ -115,9 +115,6 @@
     animation: bounce 2s infinite;
   }
 
-  .fas {
-  }
-
   .bounce-right {
     -moz-animation: bounce-right 2s infinite;
     -webkit-animation: bounce-right 2s infinite;
@@ -137,6 +134,10 @@
   @media (max-width: 576px){
     .arrow {
       bottom: 30px;
+      width: 20px;
+      height: 20px;
+      margin-left: -10px;
+
     }
     .arrow-right {
       padding-top: 19.5rem;

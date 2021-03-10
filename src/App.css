@@ -233,6 +233,7 @@ h1 #h1-dif-color {
   background-color: var(--dark-color);
   color: var(--light-color);
   text-align: center;
+  padding-bottom: 2rem;
 }
 
 .project-info {
@@ -396,11 +397,18 @@ h1 #h1-dif-color {
 #gallery{
   margin-top: 5rem;
   padding: 3rem;
+  color: var(--light-color);
+}
+
+#gallery a {
+  text-decoration: none;
+  color: var(--secondary-color);
 }
 
 #gallery h2{
   margin: 0;
   padding: 0;
+  color: var(--light-color);
 }
 
 .grid-content {
@@ -582,7 +590,7 @@ h1 #h1-dif-color {
 
 .copyright-content {
   position: absolute;
-  background-color: var(--primary-color-opacity);
+  background-color: var(--dark-color);
   bottom: 0;
   left: 0;
   width: 100%;
@@ -590,6 +598,7 @@ h1 #h1-dif-color {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--light-color);
 }
 
 #back-to-top {
