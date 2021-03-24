@@ -118,11 +118,10 @@ const HeroBanner = () => {
 
                     <h2 id="name">Staffan Strömsholm</h2>
                     <h1 id="typing"></h1>
-                    {/* <img class="profile-pic" src={profilePic}/> */}
                     <div class="profile-text">
                         <p>Welcome to my portfolio website! I have built applications using HTML, CSS, Javascript, React and Node. This website is built with React. If you want to see my projects, please scroll down. If you want to get straight to my resumé, you can download it <a id="resume" href={resume} download="Staffan-Strömsholm-resumé">here</a></p>
                     </div>
-                    <div className="arrow"></div>
+                    <div className="arrow bounce"></div>
                 </div>
             </div>
         </section>
