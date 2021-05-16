@@ -59,7 +59,7 @@ const Skills = () => {
                         <p>Git</p>
                         <progress id="file" value="70" max="100"></progress>
                     </div>
-                    {/* <div className="progress-group">
+                    <div className="progress-group">
                         <label for="file"><i className="fas fa-medal"></i></label>
                         <p>Dad Jokes</p>
                         <progress id="file" value="80" max="100"></progress>
@@ -68,7 +68,7 @@ const Skills = () => {
                         <label for="file"><i className="fas fa-utensils"></i></label>
                         <p>Cooking</p>
                         <progress id="file" value="0" max="100"></progress>
-                    </div> */}
+                    </div>
                 </div>
             </div>
         </section>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { withRouter, Redirect } from 'react-router-dom';
+import { withRouter} from 'react-router-dom';
 
 const Contact = () => {
     const [name, setName] = useState('');
