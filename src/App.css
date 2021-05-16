@@ -87,7 +87,6 @@ header nav ul li i {
   color: var(--secondary-color);
 }
 
-
 header nav ul li .nav-item {
   text-decoration: none;
   color: var(--light-color);
@@ -149,9 +148,6 @@ header nav ul li ul li a {
 
 #hero-banner {
   position: relative;
-  /* background: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80") no-repeat fixed center center/cover; */
-  /* background: url('https://images.unsplash.com/photo-1588392382834-a891154bca4d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2110&q=80') fixed center center/cover; */
-  /* background-color: orange; */
   background: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80') fixed center center/cover;
   height: 100vh;
   display: flex;
@@ -228,8 +224,6 @@ h1 #h1-dif-color {
 /* ==============Projects============= */
 
 .projects {
-  /* background: url("https://images.unsplash.com/photo-1515705576963-95cad62945b6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80") */
-    /* no-repeat center center/cover fixed; */
   background-color: var(--light-color);
   color: var(--dark-color);
   text-align: center;
@@ -275,8 +269,6 @@ h1 #h1-dif-color {
   color: var(--secondary-color);
   text-decoration: none;
 }
-
-
 
 /* ===========EXPERIENCE========== */
 
