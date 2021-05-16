@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio_react/static/css/main.d92b4b0f.chunk.css",
-    "main.js": "/portfolio_react/static/js/main.3ab60d49.chunk.js",
-    "main.js.map": "/portfolio_react/static/js/main.3ab60d49.chunk.js.map",
+    "main.js": "/portfolio_react/static/js/main.906df453.chunk.js",
+    "main.js.map": "/portfolio_react/static/js/main.906df453.chunk.js.map",
     "runtime-main.js": "/portfolio_react/static/js/runtime-main.272da58a.js",
     "runtime-main.js.map": "/portfolio_react/static/js/runtime-main.272da58a.js.map",
     "static/js/2.bf47cd19.chunk.js": "/portfolio_react/static/js/2.bf47cd19.chunk.js",
@@ -14,13 +14,13 @@
     "static/media/Typescript_logo_2020.b26a2a86.svg": "/portfolio_react/static/media/Typescript_logo_2020.b26a2a86.svg",
     "static/media/mongodb (1).e4025ae2.svg": "/portfolio_react/static/media/mongodb (1).e4025ae2.svg",
     "static/media/profilePic.f46b681c.jpg": "/portfolio_react/static/media/profilePic.f46b681c.jpg",
-    "static/media/resume.02892bc6.pdf": "/portfolio_react/static/media/resume.02892bc6.pdf",
+    "static/media/resume.0e5ae729.pdf": "/portfolio_react/static/media/resume.0e5ae729.pdf",
     "static/media/sql-svgrepo-com.b708b66f.svg": "/portfolio_react/static/media/sql-svgrepo-com.b708b66f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.272da58a.js",
     "static/js/2.bf47cd19.chunk.js",
     "static/css/main.d92b4b0f.chunk.css",
-    "static/js/main.3ab60d49.chunk.js"
+    "static/js/main.906df453.chunk.js"
   ]
 }
