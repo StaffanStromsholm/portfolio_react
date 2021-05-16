@@ -17,7 +17,7 @@ function Projects() {
             <Carousel className="projects">
                 <div className="project-info">
 
-                    <div className="project-img"><img src="https://lh3.googleusercontent.com/C42_0chM8PKfSSfXPnFqEOuy1jgDBEwVIwWjI8wkF_hapbNTOqY6BV1pDzXVrdEjQ0YVMIKZTebmnwb4hLyddJhKtSWxSojbNzpCH9CvYyXH9v6aaCJ8iLUSJIukkIBkd_TGcD7KEw=w2400"></img></div>
+                    <div className="project-img"><img alt="bandmatefinder" src="https://lh3.googleusercontent.com/C42_0chM8PKfSSfXPnFqEOuy1jgDBEwVIwWjI8wkF_hapbNTOqY6BV1pDzXVrdEjQ0YVMIKZTebmnwb4hLyddJhKtSWxSojbNzpCH9CvYyXH9v6aaCJ8iLUSJIukkIBkd_TGcD7KEw=w2400"></img></div>
                     <h4 className="project-title">Bandmate Finder</h4>
                     <p className="project-description">A social media app created for musicians. Users can create profiles, and connect with other users by commenting on their profiles. The users address is geocoded on the backend when signing up based on city and postal code, and the coordinates are stored to MongoDB along with the other information. You can filter users on the map so only users playing a certain instrument are shown. Technologies: React, Node, Express, mongoDB, Here Maps, Bcrypt for salting and hashing passwords, Node geocoder.</p>
                     <ul>
@@ -28,7 +28,7 @@ function Projects() {
 
                 {posts.slice(1).map(post =>
                     <div className="project-info">
-                        <div className="project-img"><img src={post.imgURL}></img></div>
+                        <div className="project-img"><img alt={post.title} src={post.imgURL}></img></div>
 
                         <h4 className="project-title">{post.title}</h4>
                         <p className="project-description">{post.description}</p>

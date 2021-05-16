@@ -40,17 +40,17 @@ const Skills = () => {
                         <progress id="file" value="50" max="100"></progress>
                     </div>
                     <div className="progress-group">
-                        <label for="file"><i><img src={TSLogo} className="typescript-logo"></img></i></label>
+                        <label for="file"><i><img alt="Typescript logo" src={TSLogo} className="typescript-logo"></img></i></label>
                         <p>Typescript</p>
                         <progress id="file" value="40" max="100"></progress>
                     </div>
                     <div className="progress-group">
-                        <label for="file"><i><img src={mongoLogo} className="mongodb-logo"></img></i></label>
+                        <label for="file"><i><img alt="MongoDB logo" src={mongoLogo} className="mongodb-logo"></img></i></label>
                         <p>MongoDB</p>
                         <progress id="file" value="50" max="100"></progress>
                     </div>
                     <div className="progress-group">
-                        <label for="file"><i><img src={SQLLogo} className="mongodb-logo"></img></i></label>
+                        <label for="file"><i><img alt="SQL logo" src={SQLLogo} className="mongodb-logo"></img></i></label>
                         <p>SQL</p>
                         <progress id="file" value="30" max="100"></progress>
                     </div>

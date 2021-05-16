@@ -42,33 +42,33 @@ const HeroBanner = () => {
         const stars = starField.childNodes;
 
         function getStarColor(index) {
-            if (index % 8 == 0)
+            if (index % 8 === 0)
                 return 'red';
-            else if (index % 10 == 0)
+            else if (index % 10 === 0)
                 return 'yellow';
-            else if (index % 17 == 0)
+            else if (index % 17 === 0)
                 return 'blue';
             else
                 return 'white';
         }
 
         const getStarDistance = (index) => {
-            if (index % 6 == 0)
+            if (index % 6 === 0)
                 return '';
-            else if (index % 9 == 0)
+            else if (index % 9 === 0)
                 return 'near';
-            else if (index % 2 == 0)
+            else if (index % 2 === 0)
                 return 'far';
             else
                 return 0;
         }
 
         const getStarRelativeSpeed = (index) => {
-            if (index % 6 == 0)
+            if (index % 6 === 0)
                 return 1;
-            else if (index % 9 == 0)
+            else if (index % 9 === 0)
                 return 2;
-            else if (index % 2 == 0)
+            else if (index % 2 === 0)
                 return -1;
             else
                 return 0;
@@ -76,7 +76,7 @@ const HeroBanner = () => {
 
         setInterval(() => {
             for (let i = 1; i < stars.length; i++) {
-                stars[i].className = 'star' + ' ' + getStarColor(i) + ' ' + getStarDistance(i);
+                stars[i].className = `star ${getStarColor(i)} ${getStarDistance(i)}`;
 
                 const currentLeft = parseInt(stars[i].style.left, 10);
                 const leftChangeAmount = speed + getStarRelativeSpeed(i);
@@ -114,10 +114,9 @@ const HeroBanner = () => {
             <div className="hero-content">
 
                 <div className>
-            <img id="profile-pic" src={profilePic}></img>
+            <img alt="profile" id="profile-pic" src={profilePic}></img>
 
                     <h2 id="name">Staffan Strömsholm</h2>
-                    <h1 id="typing"></h1>
                     <div class="profile-text">
                         <p>Welcome to my portfolio website! I have built applications using HTML, CSS, Javascript, React and Node. This website is built with React. If you want to see my projects, please scroll down. If you want to get straight to my resumé, you can download it <a id="resume" href={resume} download="Staffan-Strömsholm-resumé">here</a></p>
                     </div>

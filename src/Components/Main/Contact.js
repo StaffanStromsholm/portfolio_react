@@ -10,7 +10,6 @@ const Contact = () => {
     const [hasContacted, setHasContacted] = useState(false);
 
     const herokuURL = 'https://staffan-portfolio-backend.herokuapp.com/sendemail';
-    const localURL = 'http://localhost:5000/sendemail';
 
     const onChangeHandlerName = (e) => {
         setName(e.target.value)
