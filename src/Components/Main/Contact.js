@@ -65,7 +65,6 @@ const Contact = () => {
             .then(result => {
                 console.log(result)
             })
-
         resetInputs();
         setHasContacted(true);
 

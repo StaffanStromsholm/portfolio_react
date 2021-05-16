@@ -17,12 +17,12 @@ function Projects() {
         <Carousel className="projects">
         <div className="project-info">
             
-                <div className="project-img"><img src="https://lh3.googleusercontent.com/VcIz6r3Xz8i_x8PhcXf6eBCIWAlTLSEnTYR1zQRAPGMFOcpLZ8YL7GxfQOxCSGZJC-ytcuG3BfQ-20uouGWwdyq6McyCoyuKilh3qBatOlvcLb1gqous-NGauR7S_5xe_cTHIi958Q=w2400"></img></div>
-               
-            <h4 className="project-title">My Garage</h4>
-            <p className="project-description">Here I practiced Node, Express and EJS. A simple CRUD application for storing data about cars.</p>
+                <div className="project-img"><img src="https://lh3.googleusercontent.com/C42_0chM8PKfSSfXPnFqEOuy1jgDBEwVIwWjI8wkF_hapbNTOqY6BV1pDzXVrdEjQ0YVMIKZTebmnwb4hLyddJhKtSWxSojbNzpCH9CvYyXH9v6aaCJ8iLUSJIukkIBkd_TGcD7KEw=w2400"></img></div>
+            <h4 className="project-title">Bandmate Finder</h4>
+            <p className="project-description">A social media app created for musicians. Users can create profiles, and connect with other users by commenting on their profiles. The users address is geocoded on the backend when signing up based on city and postal code, and the coordinates are stored to MongoDB along with the other information. You can filter users on the map so only users playing a certain instrument are shown. Technologies: React, Node, Express, mongoDB, Here Maps, Bcrypt for salting and hashing passwords, Node geocoder.</p>
             <ul>
-                <li className="project-link"><a href="https://github.com/StaffanStromsholm/car_project"><i class="fas fa-chevron-right"></i> GitHub</a></li>
+                <li className="project-link"><a href="https://bandmatefinderclient.herokuapp.com/BandmateFinder-client"><i class=" fas fa-chevron-right"></i> Live</a></li>
+                <li className="project-link"><a href="https://github.com/StaffanStromsholm/BandmateFinder-client"><i class="fas fa-chevron-right"></i> GitHub</a></li>
             </ul>
             </div>
              
